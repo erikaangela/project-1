@@ -1,0 +1,211 @@
+
+.wrap {
+  background-color: #ebecf0;
+  width: 95%;
+  padding: 25px;
+  border: 2px solid white;
+  margin: auto;
+  display: flex;
+}
+
+.wrap-start {
+  background-color: #89cff0 !important;
+}
+
+.logo  {
+  width: 50%;
+}
+
+.fa-solid {
+  font-size: 60px;
+  color: red;
+}
+
+nav {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  font-family: 'Bangers', cursive;
+  font-size: 25px;
+}
+
+nav a {
+  text-decoration: underline dotted blue;
+  color: black;
+}
+
+.wrap-middle1, .wrap-middle2 {
+  padding: 5px;
+  margin: auto;
+}
+
+.sidebar, .content {
+  padding: 5px;
+  margin: 75;
+}
+
+h2, h3 {
+  font-family: 'Bangers', cursive;
+  font-size: 30px;
+  width: 90%;
+}
+
+.wrap-middle1 .sidebar {
+  width: 40%;
+  padding: 25px;
+  border: 2px solid white;
+}
+
+.wrap-middle2 .sidebar {
+  width: 75%;
+  padding: 25px;
+  border: 2px solid white;
+}
+
+.wrap-middle1 .content {
+  width: 60%;
+  border: 2px solid white;
+}
+
+.wrap-middle2 .content {
+  width: 25%;
+  padding: 25px;
+  border: 2px solid white;
+}
+
+.wrap-end {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.box2 > div {
+  border: 2px solid white;
+  padding: 5px;
+  width: 25%;
+}
+
+img[src*='main'] {
+  max-width: 50%;
+  height: auto;
+}
+
+img[src*='team'] {
+  width: 100%;
+  height: 170px;
+  border: 2px solid white;
+}
+
+img[src*='services'] {
+  width: 100%;
+  height: 170px;
+  border: 2px solid white;
+}
+
+img[src*='ref'] {
+  width: 100%;
+  height: 170px;
+  border: 2px solid white;
+}
+
+img[src*='press'] {
+  width: 100%;
+  height: 170px;
+  border: 2px solid white;
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 992px) {
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav a {
+    font-size: 50px;
+  }
+
+  .wrap-start {
+    width: 90%;
+    height: 300px;
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  .wrap-middle1, .wrap-middle2 {
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 25px;
+  }
+
+  h2, h3 {
+    width: 90%;
+  }
+
+  nav {
+    width: 100%;
+  }
+
+  img[src*='main'] {
+    max-width: 100%;
+  }
+
+  p {
+    overflow-wrap: break-word !important;
+  }
+
+  .wrap-middle1 .sidebar {
+    width: 100%;
+  }
+
+  .wrap-middle2 .sidebar {
+    width: 100%;
+  }
+
+  .wrap-middle1 .content {
+    width: 100%;
+  }
+
+  .wrap-middle2 .content {
+    width: 100%;
+  }
+
+  .box2 {
+    display: block;
+  }
+
+  .box2 > div {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  img[src*='team'] {
+    height: 100%; \\ HEIGHT NOT UNIFORM IN MOBILE \\
+  }
+
+  img[src*='services'] {
+    height: 100%;
+  }
+
+  img[src*='ref'] {
+    height: 100%;
+  }
+
+  img[src*='press'] {
+    height: 100%;
+  }
+}
